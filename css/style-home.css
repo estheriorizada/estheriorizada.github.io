@@ -1,0 +1,140 @@
+body {
+  background-image: linear-gradient(#f5cfcf, #cfdcf5, #f5cfcf);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  padding: 11rem;
+}
+
+/*  BASE CARD  */
+.esther-rectangle {
+    width: 30rem;
+    height: 20rem;
+    background: rgba(94, 23, 235, 0.7);
+    box-shadow: 15px 15px 30px #ad96f4;
+    border-radius: 30px;
+    position: absolute;
+}
+
+.esther-circle {
+        width: 15rem;
+        height: 15rem;
+        background: rgba(255, 123, 0, 0);
+        box-shadow: 5px 30px 30px #c97373;
+        opacity: 0.5;
+        border-radius: 50%;
+        position: absolute;
+        bottom: -7rem;
+        align-content: center;
+}
+
+/*  IMAGEM  */
+.imagem {
+  transform: scale(0.67);
+  position: absolute;
+  bottom: -12.5rem;
+  cursor: pointer;
+  /*
+  border-radius: 20rem;
+  border-style: dashed;
+  box-shadow: 5px 20px 30px #c97373;
+  */
+}
+
+.imagem:hover {
+  transform: rotate(5deg) scale(0.685);
+  transition: 3s;
+}
+
+/*  TEXTO */ 
+  .text {
+    font-family: 'Nabla', cursive;
+    opacity: 0.8;
+    transform: rotate(-63deg);
+    position: absolute;
+    margin-right: 17.2rem;
+    margin-top: 6.2rem; 
+  }
+
+  .text span {
+    font-size: 18px;
+    height: 300px;
+    position: absolute;
+  }
+
+  .t1 {
+    transform: rotate(8deg);
+  }
+  .t2 {
+    transform: rotate(16deg);
+  }
+  .t3 {
+    transform: rotate(24deg);
+  }
+  .t4 {
+    transform: rotate(32deg);
+  }
+  .t5 {
+    transform: rotate(40deg);
+  }
+  .t6 {
+    transform: rotate(48deg);
+  }
+  .t7 {
+    transform: rotate(56deg);
+  }
+  .t8 {
+    transform: rotate(64deg);
+  }
+  .t9 {
+    transform: rotate(72deg);
+  }
+  .t10 {
+    transform: rotate(80deg);
+  }
+  .t11 {
+    transform: rotate(88deg);
+  }
+  .t12 {
+    transform: rotate(96deg);
+  }
+  .t13 {
+    transform: rotate(104deg);
+  }
+  .t14 {
+    transform: rotate(112deg);
+  }
+  .t15 {
+    transform: rotate(120deg);
+  }
+
+.clique {
+  margin-top: 10em;
+  font-family: 'Roboto Mono', monospace;
+  color: #874FF6;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.clique:hover {
+  color: #F92672;
+  transform: rotate(400deg) scale(40);
+  transition: 5s;
+}
+
+/* versão mobile */ 
+@media screen and (max-width: 480px) {
+	.esther-rectangle {
+		width: auto;
+	}
+
+  .clique {
+    text-align: center;
+  }
+}

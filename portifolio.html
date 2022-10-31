@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Esther Lourenço - Portifólio</title>
+
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/home.css">
+        <!-- Google icons -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+        <!-- menu lateral mobile -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Rubik&display=swap" rel="stylesheet"> 
+        
+        <script src="main.js"></script>
+    </head>
+
+	<body>
+		<header>
+        
+			<div class="menu">
+                <div class="topnav">
+                    <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+                    <a href="javascript:void(0);" class="icon" onclick="menuMobile()">
+                        <i class="fa fa-bars"></i>
+                    </a>
+
+                    <nav id="nav">
+                        <li><a href="#sobre">sobre mim</a></li>
+                        <li><a href="#formacao">formação</a></li>
+                        <li><a href="#experiencias">experiências</a></li>
+                        <li><a href="#habilidades">habilidades</a></li>
+                        <li><a href="#interesses">interesses</a></li>
+                    </nav>
+                </div>
+
+                <div id="eu">
+
+                    <h1 class="nome">Esther Lourenço</h1>
+                    <h2>Desenvolvedora front-end</h2>
+    
+                    <div class="contato">
+                        <div class="minidiv">
+                            <i class="material-icons">mail</i>
+                            <p>esther@umcertoemail.com</p>
+                        </div>  
+                        <div class="minidiv">
+                            <i class="material-icons">call</i>
+                            <p>(9) 99999-9999</p>
+                        </div>
+                        <div class="minidiv">
+                            <i class="material-icons">pin_drop</i>
+                            <p>Brasil</p>
+                        </div>
+                        <a href="https://github.com/estheriorizada" target="_blank"><img src="imagens/github.png" alt="logo github" class="git"></a>
+                        <a href="https://www.linkedin.com/in/estherlourenco/" target="_blank"><img src="imagens/linkedin.png" alt="logo linkdedin" class="linkedin"></a>
+                    </div>
+
+                    
+                </div>
+                <img src="imagens/adesivo.png" class="avatar">
+			</div>			
+		</header>
+
+		<main>		
+			<div class="sobre-mim" id="sobre">
+
+                <img class="maos" src="imagens/maos.png">
+				<p><b>Sobre mim</b>
+                    <br>
+                    <br>
+                    Trabalho com arte e sou fascinada pelos potenciais criativos da tecnologia. Gosto de pesquisar as fronteiras entre as linguagens e estou feliz com o início da minha estrada como desenvolvedora front-end proporcionada pelo programa Empower Code (Zenvia / Alura).</p>
+
+            </div>
+
+            <div class="bloquinhos">
+                <h3 class="titulos-secundarios" id="formacao">Formação</h3>
+                <div class="formacao">
+                    <p class="texto-caixas">Empower Code for Women (2022) Cursos de HTML, CSS, JavaScript e Node.js.</p>
+                    <p class="texto-caixas">Comunicação Social - Habilitação em Midialogia (Unicamp).</p>
+                </div>
+
+                <h3 class="titulos-secundarios" id="experiencias">Experiências</h3>
+                <div class="experiencias">
+                    <p class="texto-caixas">Intercâmbio cultural como AuPair na Alemanha.</p>
+                    <p class="texto-caixas">Edição de vídeo e social media na produtora Cristal Filmes.</p>
+                </div>
+
+                <h3 class="titulos-secundarios" id="habilidades">Habilidades</h3>
+                <div class="habilidades">
+                    <p class="texto-caixas">HTML, CSS, JavaScript e Node.</p>
+                    <p class="texto-caixas">Edição de imagens, áudio e vídeos; video mapping, fotografia.</p>
+                </div>
+
+                <h3 class="titulos-secundarios" id="interesses">Interesses</h3>
+                <div class="interesses">
+                    <button onclick="mostraTexto(glitch)" class="glitch"><img src="imagens/glitch.png"></button>
+                    <button onclick="mostraTexto(tresD)" class="tresD"><img src="imagens/3D.png" id="tresD"></button>
+                    <button onclick="mostraTexto(mic)" class="mic"><img src="imagens/microscopio.png" id="microscopio"></button>
+                    <button onclick="mostraTexto(livros)" class="livros"><img src="imagens/livros.png" id="livros"></button>
+                </div>
+
+                <div class="cards">
+                    <p class="texto-caixas" id="card_glitch">Arquivos corrompidos, glitches e afins</p>
+                    <p class="texto-caixas" id="card_tresD">Arte 3D</p>
+                    <p class="texto-caixas" id="card_mic">Imagens microscópicas</p>
+                    <p class="texto-caixas" id="card_livros">Livros novos, velhos, pergaminhos ou e-books!</p>
+                </div>
+            </div>
+
+		</main>
+
+		<footer>
+            <p>&copy; Esther Lourenço
+            <br>
+            2022
+            </p>
+		</footer>
+	</body>
+</html>
